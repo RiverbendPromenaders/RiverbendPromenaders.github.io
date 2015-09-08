@@ -266,13 +266,17 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
+    background-image: url(../img/Square_Dance_Group.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+header::after{
+  background-color: rgba(0,0,0,.5);
 }
 
 header .intro-text {
@@ -484,7 +488,7 @@ section h3.section-subheading {
     border-left-width: 0;
 }
 
-.timeline>li .timeline-image {
+.timeline>li .timeline-image, .timeline>li .timeline-image2 {
     z-index: 100;
     position: absolute;
     left: 0;
@@ -498,7 +502,7 @@ section h3.section-subheading {
     background-color: #{{ site.color.primary }};
 }
 
-.timeline>li .timeline-image h4 {
+.timeline>li .timeline-image h4, .timeline>li .timeline-image2 h4 {
     margin-top: 12px;
     font-size: 10px;
     line-height: 14px;
@@ -548,25 +552,32 @@ section h3.section-subheading {
     }
 
     .timeline>li {
-        margin-bottom: 100px;
-        min-height: 100px;
+        margin-bottom: 50px;
+        /*min-height: 100px;*/
     }
 
     .timeline>li .timeline-panel {
         float: left;
-        width: 41%;
+        width: 51%;
         padding: 0 20px 20px 30px;
         text-align: right;
     }
 
     .timeline>li .timeline-image {
-        left: 50%;
+        left: 58%;
         width: 100px;
         height: 100px;
         margin-left: -50px;
     }
 
-    .timeline>li .timeline-image h4 {
+    .timeline>li .timeline-image2 {
+        left: 48%;
+        width: 100px;
+        height: 100px;
+        margin-left: -50px;
+    }
+
+    .timeline>li .timeline-image h4, .timeline>li .timeline-image2 h4 {
         margin-top: 16px;
         font-size: 13px;
         line-height: 18px;
@@ -581,20 +592,20 @@ section h3.section-subheading {
 
 @media(min-width:992px) {
     .timeline>li {
-        min-height: 150px;
+        /*min-height: 150px;*/
     }
 
     .timeline>li .timeline-panel {
         padding: 0 20px 20px;
     }
 
-    .timeline>li .timeline-image {
-        width: 150px;
-        height: 150px;
+    .timeline>li .timeline-image, .timeline>li .timeline-image2 {
+        width: 100px;
+        height: 100px;
         margin-left: -75px;
     }
 
-    .timeline>li .timeline-image h4 {
+    .timeline>li .timeline-image h4, .timeline>li .timeline-image2 h4 {
         margin-top: 30px;
         font-size: 18px;
         line-height: 26px;
@@ -607,20 +618,20 @@ section h3.section-subheading {
 
 @media(min-width:1200px) {
     .timeline>li {
-        min-height: 170px;
+        /*min-height: 170px;*/
     }
 
     .timeline>li .timeline-panel {
         padding: 0 20px 20px 100px;
     }
 
-    .timeline>li .timeline-image {
-        width: 170px;
-        height: 170px;
+    .timeline>li .timeline-image, .timeline>li .timeline-image2 {
+        width: 100px;
+        height: 100px;
         margin-left: -85px;
     }
 
-    .timeline>li .timeline-image h4 {
+    .timeline>li .timeline-image h4, .timeline>li .timeline-image2 h4 {
         margin-top: 40px;
     }
 

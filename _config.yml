@@ -1,51 +1,136 @@
 url: https://y7kim.github.io
-baseurl: /agency-jekyll-theme/
+baseurl: ""
 
 # Site settings
-title: Awesome Title
+title: Riverbend Promenaders
 email: your-email@domain.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: fed136
-  secondary: fec503  
+  secondary: fec503
   secondary-dark: 333
 
-# Team names, titles and social links
+# Dance Schedule
+schedule:
+- date: 2015-09-18
+  name: Larry Fruetel
+  pic: Larry_Fruetel.png
+  description:
+
+- date: 2015-10-02
+  name: Sprosty Twins
+  pic: SprostyTwins.jpg
+  description:
+
+- date: 2015-10-16
+  name: Larry Fruetel
+  pic: Larry_Fruetel.png
+  description:
+
+- date: 2015-11-06
+  name: Dick Rueter
+  pic: DickRueter.jpg
+  description:
+
+- date: 2015-11-20
+  name: Roger Mcneil
+  pic: RogerMcneil.jpg
+  description:
+
+- date: 2015-12-04
+  name: Dan Sahlstrom
+  pic:
+  description:
+
+- date: 2015-12-18
+  name: Larry Fruetel
+  pic: Larry_Fruetel.png
+  description:
+
+- date: 2015-12-31
+  name: Larry Fruetel
+  pic: 2016.jpg
+  description: New Year's Eve Dance, 9:00 - 12:00
+
+- date: 2016-01-15
+  name: Larry Fruetel
+  pic: Larry_Fruetel.png
+  description:
+
+- date: 2016-02-05
+  name: Larry Fruetel
+  pic: Larry_Fruetel.png
+  description:
+
+- date: 2016-02-19
+  name: Larry Fruetel
+  pic: Larry_Fruetel.png
+  description:
+
+- date: 2015-03-04
+  name: Dean Dederman
+  pic:
+  description:
+
+- date: 2016-03-18
+  name: Larry Fruetel
+  pic: Larry_Fruetel.png
+  description:
+
+- date: 2016-03-28
+  name: Abe Maier
+  pic: abemaier.jpg
+  description: Monday after Easter dance in New Ulm
+
+- date: 2016-04-03
+  name: Spring Fling
+  pic: Spring-Fling-logo23.png
+  description: Sunday afternoon, 2:00 - 5:00
+
+- date: 2016-04-15
+  name: Larry Fruetel
+  pic: Larry_Fruetel.png
+  description:
+
+- date: 2016-05-06
+  name: Tom Allen
+  pic:
+  description:
+
+- date: 2016-05-20
+  name: Larry Fruetel
+  pic: Larry_Fruetel.png
+  description:
+
+# Team names, titles and email
 people:
-- name: Kay Garland
+- name: Gail LeGare
   pic: 1
-  position: Lead Designer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+  position: President
+  email: gaillegare@wildblue.net
 
-- name: Larry Parker
+- name: Greg Sondag
   pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
+  position: Vice President
+  email: wendall_1018@hotmail.com
 
-- name: Diana Petersen
+- name: Lynda Bauer
   pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+  position: Treasurer
+  email: bauerl@sleepyeyetel.net
+
+- name: Madonna Russo
+  pic: 3
+  position: Secretary
+  email: madrusso@hotmail.com
+
+- name: Larry Fruetel
+  pic: 3
+  position: Club Caller
+  email: sqdanz@yahoo.com
+
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -55,7 +140,7 @@ social:
     url:
   - title: stack-overflow
     url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
+  - title: bitbucket
     url: http://bitbucket.org/jekyll
   - title: github
     url: http://github.com/jekyll

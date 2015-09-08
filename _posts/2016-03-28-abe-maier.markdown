@@ -1,0 +1,6 @@
+---
+title: Abe Maier
+date: 2016-03-28
+img: abemaier.jpg
+description: Monday after Easter dance in New Ulm
+---
