@@ -14,15 +14,7 @@ color:
 
 # Dance Schedule
 schedule:
-- date: 2015-09-18
-  name: Larry Fruetel
-  pic: Larry_Fruetel.png
-  description:
 
-- date: 2015-10-02
-  name: Sprosty Twins
-  pic: SprostyTwins.jpg
-  description:
 
 - date: 2015-10-16
   name: Larry Fruetel
@@ -102,6 +94,16 @@ schedule:
 - date: 2016-05-20
   name: Larry Fruetel
   pic: Larry_Fruetel.png
+  description:
+  
+- date: 2016-05-27
+  name: Larry Fruetel
+  pic: Larry_Fruetel.png
+  description:
+
+- date: 2016-06-03
+  name: Sprosty Twins
+  pic: SprostyTwins.jpg
   description:
 
 # Team names, titles and email
