@@ -160,7 +160,6 @@ prose:
   media: 'img/callers'
   ignore:
     - index.md
-    - _config.yml
     - /_layouts
     - /_includes
     - /_plugins
