@@ -157,12 +157,25 @@ permalink: pretty
 prose:
   siteurl: 'http://riverbendpromenaders.github.io/'
   relativeLinks: 'http://prose.github.io/starter/links.jsonp'
-  media: 'img'
+  media: 'img/callers'
   ignore:
     - index.md
     - _config.yml
     - /_layouts
     - /_includes
+    - /_plugins
+    - /_posts
+    - /css
+    - /js
+    - /mail
+    - .gitattributes
+    - .gitignore
+    - Gemfile
+    - Gemfile.lock
+    - License
+    - Readme.md
+    - feed.xml
+    - style.css
   metadata:
     _posts:
       - name: "layout"
